@@ -7,23 +7,32 @@
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/SplashScreen.jpg",
+      "image": "./assets/SplashScreen.png",
       "resizeMode": "cover"
     },
     "assetBundlePatterns": [
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.devbigboss.electricmotorwinding"
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.devbigboss.electricmotorwinding"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b4eb5be4-4586-44e6-8659-a5d0011c8f99"
+      }
+    },
+    "owner": "devbigboss"
   }
 }
+
